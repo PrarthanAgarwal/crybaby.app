@@ -4,6 +4,7 @@ import './globals.css'
 import { ThemeSwitcher } from '@/components/theme-switcher'
 import { ThemeProvider } from '@/components/theme-provider'
 import { Navbar } from '@/components/navbar'
+import { Analytics } from '@vercel/analytics/react'
 
 const dmSans = DM_Sans({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <ThemeSwitcher />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
