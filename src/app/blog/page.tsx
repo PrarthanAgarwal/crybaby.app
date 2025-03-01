@@ -14,7 +14,7 @@ export default function Blog() {
             <div className="mb-8">
               <h2 className="text-2xl font-heading mb-4">Coming Soon!</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                We're preparing some amazing content about emotional well-being, the science of crying, 
+                We&apos;re preparing some amazing content about emotional well-being, the science of crying, 
                 and stories from our community. Stay tuned!
               </p>
             </div>

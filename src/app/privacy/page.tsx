@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
           <div className="prose dark:prose-invert max-w-none">
             <h2 className="text-2xl font-heading mt-8 mb-4">1. Introduction</h2>
             <p className="mb-4">
-              CryBaby ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
+              CryBaby (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
             </p>
 
             <h2 className="text-2xl font-heading mt-8 mb-4">2. Data Collection</h2>

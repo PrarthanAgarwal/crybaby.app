@@ -28,7 +28,7 @@ export default function Feedback() {
           <div className="max-w-[600px] mx-auto">
             <p className="text-gray-600 dark:text-gray-300 mb-8 text-center">
               Your feedback helps make CryBaby better! Whether you have a feature request, found a bug, 
-              or just want to share your experience, we're all ears.
+              or just want to share your experience, we&apos;re all ears.
             </p>
 
             <div className="grid gap-6 mb-8">
@@ -38,7 +38,7 @@ export default function Feedback() {
                   Feature Requests
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Have an idea that would make CryBaby even better? We'd love to hear it!
+                  Have an idea that would make CryBaby even better? We&apos;d love to hear it!
                 </p>
                 <EmailButton type="features">
                   Suggest Feature
@@ -64,7 +64,7 @@ export default function Feedback() {
                   General Feedback
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Want to share your experience or have other thoughts? We're listening!
+                  Want to share your experience or have other thoughts? We&apos;re listening!
                 </p>
                 <EmailButton type="feedback">
                   Share Feedback

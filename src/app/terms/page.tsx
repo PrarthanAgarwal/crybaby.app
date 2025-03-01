@@ -9,7 +9,7 @@ export default function TermsOfService() {
             <h2 className="text-2xl font-heading mt-8 mb-4">1. Service Terms</h2>
             <h3 className="text-xl font-heading mt-6 mb-3">1.1 Acceptance of Terms</h3>
             <p className="mb-4">
-              By accessing or using the CryBaby application ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you disagree with any part of these terms, you may not access or use the App.
+              By accessing or using the CryBaby application (&ldquo;the App&rdquo;), you agree to be bound by these Terms of Service (&ldquo;Terms&rdquo;). If you disagree with any part of these terms, you may not access or use the App.
             </p>
 
             <h3 className="text-xl font-heading mt-6 mb-3">1.2 User Eligibility</h3>
