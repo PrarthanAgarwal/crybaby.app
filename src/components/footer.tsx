@@ -6,18 +6,18 @@ export default function Footer() {
       <div className="flex flex-col items-center gap-6">
         <div className="flex items-center gap-4">
           <Link
-            href="https://instagram.com/crybaby.app"
+            href="https://www.instagram.com/prarthan_agarwal/"
             target="_blank"
             rel="noopener noreferrer"
-            className="border-2 border-black px-4 py-2 rounded-base bg-white hover:bg-black hover:text-white transition-colors shadow-light dark:shadow-dark hover:-translate-y-1 hover:shadow-none transform-gpu"
+            className="border-2 border-black dark:border-white px-4 py-2 rounded-base bg-white dark:bg-secondaryBlack hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black transition-colors shadow-light dark:shadow-dark hover:-translate-y-1 hover:shadow-none transform-gpu"
           >
             📸 Instagram
           </Link>
           <Link
-            href="https://twitter.com/crybaby_app"
+            href="https://x.com/prarthanagarwal"
             target="_blank"
             rel="noopener noreferrer"
-            className="border-2 border-black px-4 py-2 rounded-base bg-white hover:bg-black hover:text-white transition-colors shadow-light dark:shadow-dark hover:-translate-y-1 hover:shadow-none transform-gpu"
+            className="border-2 border-black dark:border-white px-4 py-2 rounded-base bg-white dark:bg-secondaryBlack hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black transition-colors shadow-light dark:shadow-dark hover:-translate-y-1 hover:shadow-none transform-gpu"
           >
             🐦 Twitter
           </Link>

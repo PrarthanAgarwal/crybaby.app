@@ -3,22 +3,22 @@ import Image from 'next/image';
 export default function Showcase() {
   const screenshots = [
     {
-      title: '🌊 Crying Session Tracker',
+      title: 'Crying Session Tracker',
       image: '/screenshots/session.png',
       description: 'Track your crying sessions with volume levels and emotional triggers'
     },
     {
-      title: '🏆 Achievement Gallery',
+      title: 'Achievement Gallery',
       image: '/screenshots/achievements.png',
       description: 'Unlock and showcase your emotional milestones and badges'
     },
     {
-      title: '📊 Emotional Analytics',
+      title: 'Emotional Analytics',
       image: '/screenshots/analytics.png',
       description: 'Beautiful charts showing your crying patterns and emotional journey'
     },
     {
-      title: '🎨 Personalized Experience',
+      title: 'Personalized Experience',
       image: '/screenshots/customize.png',
       description: 'Customize your experience with themes and personal goals'
     }

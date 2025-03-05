@@ -19,9 +19,15 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={dmSans.className}>
-        <ThemeProvider attribute="class" disableTransitionOnChange>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${dmSans.className} bg-white dark:bg-darkBg`} suppressHydrationWarning>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem={false}
+          disableTransitionOnChange
+          storageKey="crybaby-theme"
+        >
           <Navbar />
           {children}
           <ThemeSwitcher />

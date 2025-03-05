@@ -14,11 +14,11 @@ export function ThemeSwitcher() {
     <>
       <Button
         size="icon"
-        className="fixed right-10 top-10 z-50"
+        className="fixed right-4 sm:right-10 top-20 sm:top-10 z-40 bg-white dark:bg-darkBg border-2 border-black shadow-light dark:shadow-dark"
         onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
       >
-        <Sun className="stroke-text hidden h-6 w-6 w500:h-4 w500:w-4 dark:inline" />
-        <Moon className="stroke-text inline h-6 w-6 w500:h-4 w500:w-4 dark:hidden" />
+        <Sun className="stroke-text hidden h-5 w-5 sm:h-6 sm:w-6 dark:inline" />
+        <Moon className="stroke-text inline h-5 w-5 sm:h-6 sm:w-6 dark:hidden" />
         <span className="sr-only">Toggle theme</span>
       </Button>
     </>

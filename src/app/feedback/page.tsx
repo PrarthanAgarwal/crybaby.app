@@ -10,7 +10,7 @@ const EmailButton = ({ type, children }: { type: string; children: React.ReactNo
   return (
     <Button
       variant="neutral"
-      className="w-full"
+      className="w-full hover:-translate-y-1 transition-transform"
       onClick={handleClick}
     >
       {children}
@@ -32,7 +32,7 @@ export default function Feedback() {
             </p>
 
             <div className="grid gap-6 mb-8">
-              <div className="border-2 border-black rounded-base p-6 hover:-translate-y-1 transition-transform">
+              <div className="border-2 border-black rounded-base p-6 shadow-light dark:shadow-dark">
                 <h3 className="text-xl font-heading mb-3 flex items-center gap-2">
                   <span>✨</span>
                   Feature Requests
@@ -45,7 +45,7 @@ export default function Feedback() {
                 </EmailButton>
               </div>
 
-              <div className="border-2 border-black rounded-base p-6 hover:-translate-y-1 transition-transform">
+              <div className="border-2 border-black rounded-base p-6 shadow-light dark:shadow-dark">
                 <h3 className="text-xl font-heading mb-3 flex items-center gap-2">
                   <span>🐛</span>
                   Bug Reports
@@ -58,7 +58,7 @@ export default function Feedback() {
                 </EmailButton>
               </div>
 
-              <div className="border-2 border-black rounded-base p-6 hover:-translate-y-1 transition-transform">
+              <div className="border-2 border-black rounded-base p-6 shadow-light dark:shadow-dark">
                 <h3 className="text-xl font-heading mb-3 flex items-center gap-2">
                   <span>💌</span>
                   General Feedback
@@ -81,11 +81,11 @@ export default function Feedback() {
                 </li>
                 <li className="flex items-center gap-2">
                   <span>🌐</span>
-                  <span>Twitter: @CryBabyApp</span>
+                  <span>Twitter: @prarthanagarwal</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span>💻</span>
-                  <span>GitHub: github.com/CryBabyApp</span>
+                  <span>GitHub: github.com/prarthanagarwal</span>
                 </li>
               </ul>
             </div>
