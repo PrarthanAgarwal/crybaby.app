@@ -36,6 +36,13 @@ export default function Footer() {
           >
             Terms of Service
           </Link>
+          <span>•</span>
+          <Link 
+            href="/delete-account" 
+            className="hover:underline text-red-500 dark:text-red-400"
+          >
+            Delete Account
+          </Link>
         </div>
         <p className="text-sm text-gray-600 dark:text-gray-400">
           Made with 😢 by Prarthan Agarwal. All rights reserved.
