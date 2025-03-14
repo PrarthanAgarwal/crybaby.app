@@ -17,11 +17,11 @@ export async function POST(request: Request) {
 
     // Get the reason label from the ID
     const reasons = {
-      'too-happy': "I'm too happy now 🌈",
+      'too-happy': "I&apos;m too happy now 🌈",
       'found-therapist': "Found a real therapist (traitor! 😤)",
       'no-more-tears': "Ran out of tears to cry 💧",
       'cat-therapist': "My cat is a better therapist 🐱",
-      'other': "Other (it's not you, it's me... 💔)",
+      'other': "Other (it&apos;s not you, it&apos;s me... 💔)",
     }
 
     const reasonLabel = reasons[reason as keyof typeof reasons] || reason
