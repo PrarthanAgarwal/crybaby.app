@@ -41,7 +41,7 @@ export default function Header() {
               Download on App Store
             </Button>
           </Link>
-          <Link href="https://play.google.com/store/apps/details?id=dev.prarthanagarwal.crybaby" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+          <Link href="/coming-soon" className="w-full sm:w-auto">
             <Button
               size="lg"
               variant="neutral"
