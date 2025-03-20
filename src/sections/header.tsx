@@ -26,7 +26,7 @@ export default function Header() {
           CryBaby is a unique mobile application that helps you track, understand, and even find joy in your crying sessions.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8 sm:mt-12 px-4">
-          <Link href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+          <Link href="https://apps.apple.com/in/app/crybaby/id6743213528" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
             <Button
               size="lg"
               className="w-full sm:w-auto h-12 text-base font-heading md:text-lg lg:h-14 lg:text-xl bg-black text-white hover:bg-black/90 flex items-center justify-center gap-2"
@@ -41,7 +41,7 @@ export default function Header() {
               Download on App Store
             </Button>
           </Link>
-          <Link href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+          <Link href="https://play.google.com/store/apps/details?id=dev.prarthanagarwal.crybaby" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
             <Button
               size="lg"
               variant="neutral"

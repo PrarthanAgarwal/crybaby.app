@@ -7,11 +7,11 @@ import { Label } from '@/components/ui/label'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 
 const reasons = [
-  { id: 'too-happy', label: "I&apos;m too happy now 🌈" },
+  { id: 'too-happy', label: "I am too happy now 🌈" },
   { id: 'found-therapist', label: "Found a real therapist (traitor! 😤)" },
   { id: 'no-more-tears', label: "Ran out of tears to cry 💧" },
   { id: 'cat-therapist', label: "My cat is a better therapist 🐱" },
-  { id: 'other', label: "Other (it&apos;s not you, it&apos;s me... 💔)" },
+  { id: 'other', label: "Other (it's not you, it's me... 💔)" },
 ]
 
 export default function DeleteAccount() {
