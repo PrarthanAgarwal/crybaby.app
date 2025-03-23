@@ -51,7 +51,7 @@ export default function Features() {
           direction="left"
         >
           {[
-            'CryBaby - log & find joy in your crying sessions :)'
+            'CryBaby - track & find joy in your crying sessions :)'
           ].map((text, id) => {
             return (
               <div className="flex items-center" key={id}>

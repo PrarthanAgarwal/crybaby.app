@@ -25,7 +25,7 @@ export default function Header() {
         <p className="max-w-[800px] mx-auto text-base sm:text-lg font-normal leading-relaxed md:text-xl lg:text-2xl lg:leading-relaxed px-4">
           CryBaby is a unique mobile application that helps you track, understand, and even find joy in your crying sessions.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8 sm:mt-12 px-4">
+        <div className="relative flex flex-col sm:flex-row gap-4 justify-center mt-8 sm:mt-12 px-4">
           <Link href="https://apps.apple.com/in/app/crybaby/id6743213528" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
             <Button
               size="lg"
@@ -41,7 +41,26 @@ export default function Header() {
               Download on App Store
             </Button>
           </Link>
-          <Link href="/coming-soon" className="w-full sm:w-auto">
+          <Link href="/coming-soon" className="relative w-full sm:w-auto">
+            {/* Desktop arrow and label */}
+            <div className="absolute hidden sm:block top-14 right-8">
+              <div className="relative transform rotate-[98deg]">
+                <Image 
+                  src="/curved-arrow.svg" 
+                  alt="Curved Arrow" 
+                  width={80} 
+                  height={80} 
+                  className="transform -scale-x-100"
+                />
+              </div>
+              
+              <div className="absolute top-12 -right-32">
+                <span className="bg-main border-2 border-black py-1 px-3 rounded-lg font-bold text-sm transform shadow-light inline-block">
+                  Coming Soon
+                </span>
+              </div>
+            </div>
+            
             <Button
               size="lg"
               variant="neutral"
@@ -56,6 +75,22 @@ export default function Header() {
               />
               Get it on Play Store
             </Button>
+            
+            {/* Mobile arrow and label - positioned after the button */}
+            <div className="block sm:hidden mt-2 text-center">
+              <div className="flex justify-center mb-1">
+                <Image 
+                  src="/curved-arrow.svg" 
+                  alt="Curved Arrow" 
+                  width={30} 
+                  height={30} 
+                  className="transform"
+                />
+              </div>
+              <span className="bg-main border-2 border-black py-0.5 px-2 rounded-md font-bold text-xs shadow-light inline-block">
+                Coming Soon
+              </span>
+            </div>
           </Link>
         </div>
       </div>
