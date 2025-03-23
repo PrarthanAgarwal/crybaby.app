@@ -91,16 +91,16 @@ export default function PhotoCarousel() {
   const aspectRatio = 1200 / 2500
   
   return (
-    <div className="relative px-4 py-6">
+    <div className="relative px-4 py-2">
       {/* Main carousel container */}
-      <div className="relative mx-auto flex h-auto max-w-6xl items-center justify-center overflow-hidden py-12">
+      <div className="relative mx-auto flex h-auto max-w-5xl items-center justify-center overflow-hidden py-4">
         {/* Previous image (left, blurred) */}
         <div className="absolute left-0 z-10 hidden sm:flex h-full w-1/3 items-center justify-center overflow-hidden px-2">
           <div 
             className="relative w-full overflow-hidden rounded-base border-2 border-black opacity-50 blur-[1px] transition-all"
             style={{ 
-              height: '600px',
-              width: `${600 * aspectRatio}px` // Width based on aspect ratio
+              height: '450px',
+              width: `${450 * aspectRatio}px` // Width based on aspect ratio
             }}
           >
             <Image
@@ -121,8 +121,8 @@ export default function PhotoCarousel() {
           <div 
             className="relative hidden sm:block"
             style={{ 
-              height: '750px',
-              width: `${750 * aspectRatio}px` // Original desktop dimensions
+              height: '600px',
+              width: `${600 * aspectRatio}px` // Original desktop dimensions
             }}
           >
             <Image
@@ -161,8 +161,8 @@ export default function PhotoCarousel() {
           <div 
             className="relative w-full overflow-hidden rounded-base border-2 border-black opacity-50 blur-[1px] transition-all"
             style={{ 
-              height: '600px',
-              width: `${600 * aspectRatio}px` // Width based on aspect ratio
+              height: '450px',
+              width: `${450 * aspectRatio}px` // Width based on aspect ratio
             }}
           >
             <Image
@@ -179,28 +179,28 @@ export default function PhotoCarousel() {
       {/* Navigation buttons - hidden on mobile */}
       <button 
         onClick={prevImage}
-        className="border-border dark:border-darkBorder shadow-light dark:shadow-dark absolute left-8 top-1/2 z-30 -translate-y-1/2 rounded-full border-2 bg-white p-3 dark:bg-secondaryBlack transition-transform active:translate-x-[3px] active:translate-y-[2px] active:shadow-none hidden sm:block"
+        className="border-border dark:border-darkBorder shadow-light dark:shadow-dark absolute left-4 top-1/2 z-30 -translate-y-1/2 rounded-full border-2 bg-white p-2 dark:bg-secondaryBlack transition-transform active:translate-x-[3px] active:translate-y-[2px] active:shadow-none hidden sm:block"
         aria-label="Previous image"
       >
-        <ChevronLeft className="h-8 w-8" />
+        <ChevronLeft className="h-6 w-6" />
       </button>
       
       <button 
         onClick={nextImage}
-        className="border-border dark:border-darkBorder shadow-light dark:shadow-dark absolute right-8 top-1/2 z-30 -translate-y-1/2 rounded-full border-2 bg-white p-3 dark:bg-secondaryBlack transition-transform active:translate-x-[3px] active:translate-y-[2px] active:shadow-none hidden sm:block"
+        className="border-border dark:border-darkBorder shadow-light dark:shadow-dark absolute right-4 top-1/2 z-30 -translate-y-1/2 rounded-full border-2 bg-white p-2 dark:bg-secondaryBlack transition-transform active:translate-x-[3px] active:translate-y-[2px] active:shadow-none hidden sm:block"
         aria-label="Next image"
       >
-        <ChevronRight className="h-8 w-8" />
+        <ChevronRight className="h-6 w-6" />
       </button>
       
       {/* Pagination indicators */}
-      <div className="mt-8 flex justify-center gap-3">
+      <div className="mt-2 flex justify-center gap-2">
         {screenshots.map((_, index) => (
           <button
             key={index}
             onClick={() => setActiveIndex(index)}
             className={cn(
-              "h-4 w-4 rounded-full border-2 border-black transition-transform active:scale-90",
+              "h-3 w-3 rounded-full border-2 border-black transition-transform active:scale-90",
               activeIndex === index 
                 ? "bg-main" 
                 : "bg-gray-200"

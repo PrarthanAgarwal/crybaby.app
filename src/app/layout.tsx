@@ -3,8 +3,9 @@ import { DM_Sans } from 'next/font/google'
 import './globals.css'
 import { ThemeSwitcher } from '@/components/theme-switcher'
 import { ThemeProvider } from '@/components/theme-provider'
-import { Navbar } from '@/components/navbar'
 import { Analytics } from '@vercel/analytics/react'
+import { Navbar } from '@/components/navbar'
+import { PageWrapper } from '@/components/page-wrapper'
 
 const dmSans = DM_Sans({ subsets: ['latin'] })
 
@@ -29,7 +30,9 @@ export default function RootLayout({
           storageKey="crybaby-theme"
         >
           <Navbar />
-          {children}
+          <PageWrapper>
+            {children}
+          </PageWrapper>
           <ThemeSwitcher />
           <Analytics />
         </ThemeProvider>

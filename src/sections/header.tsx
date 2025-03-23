@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <header className="dark:bg-secondaryBlack inset-0 flex min-h-[80dvh] w-full flex-col items-center justify-center bg-white bg-[linear-gradient(to_right,#80808033_1px,transparent_1px),linear-gradient(to_bottom,#80808033_1px,transparent_1px)] bg-[size:70px_70px]">
+    <header className="dark:bg-secondaryBlack relative inset-0 flex min-h-[80dvh] w-full flex-col items-center justify-center bg-white bg-[linear-gradient(to_right,#80808033_1px,transparent_1px),linear-gradient(to_bottom,#80808033_1px,transparent_1px)] bg-[size:70px_70px]">
       <div className="mx-auto w-container max-w-full px-4 sm:px-5 py-[60px] sm:py-[110px] text-center lg:py-[150px]">
         <div className="flex flex-col items-center justify-center">
           <div className="flex flex-col sm:flex-row items-center sm:gap-10 md:gap-20 mb-8 sm:mb-16">

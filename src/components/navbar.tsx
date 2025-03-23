@@ -27,7 +27,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-4 sm:top-6 left-0 right-0 mx-4 sm:mx-auto z-50 sm:max-w-fit">
+    <nav className="absolute top-4 sm:top-6 left-0 right-0 mx-4 sm:mx-auto z-50 sm:max-w-fit">
       <div className="flex flex-col sm:flex-row items-center bg-white dark:bg-darkBg border-2 border-black shadow-light dark:shadow-dark px-4 sm:px-6 py-2 sm:py-3 rounded-base">
         <div className="w-full sm:w-auto flex items-center justify-between">
           <Link href="/" className="flex items-center">
